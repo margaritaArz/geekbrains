@@ -125,6 +125,7 @@ class Toy:
         print('Закупка сырья')
 
 tiger = Toy('orange', 'tiger', 'cartoon')
+tiger._tailoring()
 
 
 
