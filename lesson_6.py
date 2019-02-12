@@ -124,10 +124,13 @@ class Toy:
     def _purchase(self):
         print('Закупка сырья')
 
-tiger = Toy('orange', 'tiger', 'cartoon')
+class Cat(Toy):
+    def _sound(self):
+        print('Purrr...')
+        
+tiger = Cat('orange', 'tiger', 'cartoon')
 tiger._tailoring()
-
-
+tiger._sound()
 
 # Задача - 2
 # Доработайте нашу фабрику, создайте по одному классу на каждый тип, теперь надо в классе фабрика
