@@ -135,9 +135,16 @@ for line in subproc_ping_2.stdout:
 
 '''
 
+file = open('test_file.txt', encoding='utf-8', mode='w')
+file.write('сетевое программирование \n сокет \n декоратор')
+file.close()
+
+print(file)
+
+
 with open('test_file.txt', encoding='utf-8') as f_n:
     for el_str in f_n:
-        print(el_str)
+        print(el_str, end=' ')
 
 import locale
 
