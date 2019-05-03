@@ -36,13 +36,9 @@ if isinstance(c, str):
  (не используя методы encode и decode) и определить тип, содержимое и длину соответствующих переменных.
 '''
 
-word_1 = 'class'
-word_2 = 'function'
-word_3 = 'method'
-
-word_1 = b'\u0063\u006c\u0061\u0073\u0073'
-word_2 = b'\u0066\u0075\u006e\u0063\u0074\u0069\u006f\u006e'
-word_3 = b'\u006d\u0065\u0074\u0068\u006f\u0064'
+word_1 = b'class'
+word_2 = b'function'
+word_3 = b'method'
 
 print(len(word_1))
 print(len(word_2))
