@@ -44,9 +44,10 @@ print(len(word_1))
 print(len(word_2))
 print(len(word_3))
 
-print(type(b))
-print(type(a))
-print(type(c))
+print(type(word_1), word_1)
+print(type(word_2), word_2)
+print(type(word_3), word_3)
+
 
 '''
 3. Определить, какие из слов «attribute», «класс», «функция», «type» невозможно записать в байтовом типе.
